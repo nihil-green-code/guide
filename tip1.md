@@ -6,6 +6,6 @@
 
 아래는 참고 이미지
 
-![이미지 1]('https://nihil-green-code.github.io//image/팁1.png')
+![이미지 1]('https://nihil-green-code.github.io/image/팁1.png')
 
-![이미지 2]('https://nihil-green-code.github.io//image/팁2.png')
+![이미지 2]('https://nihil-green-code.github.io/image/팁2.png')
