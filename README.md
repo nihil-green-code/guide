@@ -25,7 +25,7 @@ HTML의 기능과 문법을 알아보도록 하자.
 + **테이블 태그**
   + [테이블 태그 기본](./HTML/9.table/9.1.table-tag.md)
   + [테이블 태그 심화](./HTML/9.table/9.2.table-extends.md)
-+ [figure 태그]()
++ [figure 태그](./HTML/10.figure-tag.md)
 <!-- + [링크 태그]()
   + [링크를 사용할 때에 주의할 점](./HTML/a-tag-tip.md)
 + [이미지 태그]()
