@@ -7,22 +7,30 @@ HTML을 배우는 시점이라면 당장은 필요 없으니 천천히 읽어보
 + [웹의 역사](https://nihilog.github.io/post/2021-05-04-02-history-of-web)
 + [웹 프로그래밍](https://nihilog.github.io/post/2021-05-04-03-web-programming)
 ## HTML
-HTML의 기능과 문법을 알아보도록 한다.
+HTML의 기능과 문법을 알아보도록 하자.
 
 + [HTML이란?](./HTML/0.HTML.md)
 + [태그의 구조](./HTML/1.syntax-of-tag.md)
 + [태그의 두가지 타입](./HTML/2.tag-type.md)
 + [제목 태그](./HTML/3.heading-tag.md)
-+ [**문단 태그**](./HTML/4.text-tag/4.1.p-tag.md)
++ **문단 태그와 관련 태그들**
+  + [문단 태그](./HTML/4.text-tag/4.1.p-tag.md)
   + [약어 태그](./HTML/4.text-tag/4.2.abbr-tag.md)
   + [정의 태그](./HTML/4.text-tag/4.3.dfn-tag.md)
   + [인용 태그](./HTML/4.text-tag/4.4.q-tags.md)
 + [엔티티 코드](./HTML/5.entity-code.md)
 + [Emmet 활용](./HTML/6.emmet.md)
-<!-- + [목록 태그들]()
-+ [테이블 태그]()
-+ [링크 태그]()
++ [시맨틱 구조](./HTML/7.semantic-structure-tags.md)
++ [목록 태그들](./HTML/8.list-tags.md)
++ **테이블 태그**
+  + [테이블 태그 기본](./HTML/9.table/9.1.table-tag.md)
+  + [테이블 태그 심화](./HTML/9.table/9.2.table-extends.md)
++ [figure 태그]()
+<!-- + [링크 태그]()
   + [링크를 사용할 때에 주의할 점](./HTML/a-tag-tip.md)
 + [이미지 태그]()
 + [**form 태그**]()
   + [input 태그](./HTML/input-tag.md) -->
+
+## CSS
+CSS의 기능과 특징을 알아보도록 하자.
