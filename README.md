@@ -31,8 +31,8 @@ HTML의 기능과 문법을 알아보도록 하자.
 + [이미지 태그](./HTML/13.image/13.1.image-tag.md)
   + [이미지 맵 사용하기](./HTML/13.image/13.2.image-map.md)
 + [**form 태그**](./HTML/14.form/14.1.form-tag.md)
-  + [input 태그](./HTML/14.form/14.2.input-tag.md) - 작성중
-  + input 태그의 다양한 타입
+  + [input 태그](./HTML/14.form/14.2.input-tag.md)
+  + [input 태그의 여러가지 타입들](./HTML/14.form/14.3.input-types.md) - 작성중
   + button 태그
   + select 태그
   + datalist 태그
@@ -53,11 +53,11 @@ CSS의 기능과 특징을 알아보도록 하자.
 + 선택자 파헤치기(2)
   <!-- + 인접 형제 선택자
   + 형제 선택자
-  + 속성 선택자 -->
+  + 속성 선택자
   + 속성 값 선택자
   + 속성 값 시작 선택자
   + 속성 값 종료 선택자
-  + 속성 값 포함 선택자
+  + 속성 값 포함 선택자 -->
 + 선택자 파헤치기(3)
   <!-- + 가상 선택자
   + 수열 선택자 -->
