@@ -30,7 +30,7 @@ HTML의 기능과 문법을 알아보도록 하자.
 + [링크 태그](./HTML/12.a-tag.md)
 + [이미지 태그](./HTML/13.image/13.1.image-tag.md)
   + [이미지 맵 사용하기](./HTML/13.image/13.2.image-map.md)
-+ [**form 태그**](./HTML/14.form/14.1.form-tag.md) - 작성중
++ [**form 태그**](./HTML/14.form/14.1.form-tag.md)
   + [input 태그](./HTML/14.form/14.2.input-tag.md) - 작성중
   + input 태그의 다양한 타입
   + button 태그
