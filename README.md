@@ -32,10 +32,11 @@ HTML의 기능과 문법을 알아보도록 하자.
   + [이미지 맵 사용하기](./HTML/13.image/13.2.image-map.md)
 + [**form 태그**](./HTML/14.form/14.1.form-tag.md)
   + [input 태그](./HTML/14.form/14.2.input-tag.md)
-  + [input 태그의 여러가지 타입들](./HTML/14.form/14.3.input-types.md) - 작성중
-  + button 태그
-  + select 태그
+  + [input 태그의 여러가지 타입들](./HTML/14.form/14.3.input-types.md)
+  + [버튼 태그](./HTML/14.form/14.4.button-tag.md)
+  + [select 태그](./HTML/14.form/14.5.select-tag.md)
   + datalist 태그
+  + form 요소 그룹화하기
   + textarea 태그
 + 멀티미티어 태그들
 
