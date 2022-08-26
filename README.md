@@ -48,24 +48,13 @@ CSS의 기능과 특징을 알아보도록 하자.
 
 + [CSS란?](./CSS/0.CSS.md)
 + [CSS의 문법](./CSS/1.syntax-of-css.md)
-+ **선택자는 기본 것인 것과, 자주 사용하는 것만을 다룬다.**
 + **선택자**
-  + [선택자 파헤치기(1)](./CSS/2.selector/2.1.selector1.md)
-    <!-- + 자식 선택자
-    + 자손 선택자
-    + 범용 선택자 -->
-  + [선택자 파헤치기(2)](./CSS/2.selector/2.2.selector2.md)
-    <!-- + 인접 형제 선택자
-    + 형제 선택자
-    + 속성 선택자
-    + 속성 값 선택자
-    + 속성 값 시작 선택자
-    + 속성 값 종료 선택자
-    + 속성 값 포함 선택자 -->
-  + [선택자 파헤치기(3)](./CSS/2.selector/2.3.selector3.md)
-    <!-- + 가상 선택자
-    + 수열 선택자 -->
+  + [선택자의 종류(1)](./CSS/2.selector/2.1.selector1.md)
+  + [선택자의 종류(2)](./CSS/2.selector/2.2.selector2.md)
+  + [선택자의 종류(3)](./CSS/2.selector/2.3.selector3.md)
 + [색상](./CSS/3.color.md)
 + [단위](./CSS/4.unit.md)
   <!-- calc 함수 설명 필수 -->
-  <!-- % em rem -->
+  <!-- px, %,  em,  rem, vw, vh, vmin, vmax -->
++ 너비, 높이
++ 박스모델
