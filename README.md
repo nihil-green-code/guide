@@ -35,10 +35,13 @@ HTML의 기능과 문법을 알아보도록 하자.
   + [input 태그의 여러가지 타입들](./HTML/14.form/14.3.input-types.md)
   + [버튼 태그](./HTML/14.form/14.4.button-tag.md)
   + [select 태그](./HTML/14.form/14.5.select-tag.md)
-  + datalist 태그
-  + form 요소 그룹화하기
-  + textarea 태그
-+ 멀티미티어 태그들
+  + [datalist 태그](./HTML/14.form/14.6.datalist-tag.md)
+  + [form 요소 그룹화하기](./HTML/14.form/14.7.fieldset-tag.md)
+  + [textarea 태그](./HTML/14.form/14.8.textarea-tag.md)
++ [멀티미티어 태그들](./HTML/15.media-tags.md)
++ [사용자 지정 속성(data)](./HTML/16.data-attr.md)
++ CSS를 위한 style 태그
++ 자바스크립트를 위한 script 태그
 
 ## CSS
 CSS의 기능과 특징을 알아보도록 하자.
