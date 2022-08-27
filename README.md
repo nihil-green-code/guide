@@ -52,8 +52,8 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [선택자의 종류(1)](./CSS/2.selector/2.1.selector1.md)
   + [선택자의 종류(2)](./CSS/2.selector/2.2.selector2.md)
   + [선택자의 종류(3)](./CSS/2.selector/2.3.selector3.md)
-  <!-- + [선택자의 종류(4)](./CSS/2.selector/2.4.selector4.md) -->
-<!-- + [색상](./CSS/3.color.md) -->
+  + [선택자의 종류(4)](./CSS/2.selector/2.4.selector4.md)
++ [색상](./CSS/3.color.md)
 <!-- + [단위](./CSS/4.unit.md) -->
   <!-- calc 함수 설명 필수 -->
   <!-- px, %,  em,  rem, vw, vh, vmin, vmax -->
