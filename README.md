@@ -53,9 +53,10 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [선택자의 종류(2)](./CSS/2.selector/2.2.selector2.md)
   + [선택자의 종류(3)](./CSS/2.selector/2.3.selector3.md)
   + [선택자의 종류(4)](./CSS/2.selector/2.4.selector4.md)
+  + [선택자의 종류(5)](./CSS/2.selector/2.5.selector5.md)
+  + [선택자의 우선순위](./CSS/2.selector/2.6.selector-rank.md)
 + [색상](./CSS/3.color.md)
 + [단위](./CSS/4.unit.md)
-  <!-- calc 함수 설명 필수 -->
-  <!-- px, %,  em,  rem, vw, vh, vmin, vmax -->
-<!-- + 너비, 높이 -->
-<!-- + 박스모델 -->
++ **박스 모델(Box Model)**
+  + [너비와 높이](./CSS/5.box-model/5.1.width-height.md)
+  + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
