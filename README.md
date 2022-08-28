@@ -1,5 +1,12 @@
 # 목차
 학원 진도에 따라 최대한 순서대로 기록 + 학원에서 배우지 않은 자잘한 내용도 조금씩 첨가.
+
+## 프로그래밍 사전지식
+우리는 프로그래밍을 하려는 사람들이다. 웬만하면 대충이라도 훑어보자.
+
++ [컴퓨터의 역사](https://nihilog.github.io/post/2021-05-03-01-history-of-computer)
++ [프로그램과 프로그래밍 언어](https://nihilog.github.io/post/2021-05-03-02-program-and-programming)
++ [프로그래밍 언어의 역사](https://nihilog.github.io/post/2021-05-03-03-history-of-programming-language)
 ## 인터넷과 웹
 HTML을 배우는 시점이라면 당장은 필요 없으니 천천히 읽어보도록 하자.
 
@@ -67,5 +74,12 @@ CSS의 기능과 특징을 알아보도록 하자.
 준비중
 
 ## JAVA
+자바의 기능과 특징을 알아보도록 하자. 이클립스 같은 IDE에 대해서는 다루지 않는다.
 
-+ [자바란?](./JAVA/0.JAVA.md) - 준비중
++ [자바란?](./JAVA/0.JAVA.md)
++ [자바 프로그램의 구조](./JAVA/1.structure-of-class.md)
++ **콘솔에 출력하기**
+  + [print()와 println()](./JAVA/2.print/2.1.print-console.md)
+  + [printf()](./JAVA/2.print/2.2.printf-method.md)
++ **변수와 데이터 타입**
+  + [변수에 대해](./JAVA/3.Variables/3.1.Variables.md) - 작성중
