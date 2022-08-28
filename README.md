@@ -42,6 +42,7 @@ HTML의 기능과 문법을 알아보도록 하자.
 + [사용자 지정 속성(data)](./HTML/16.data-attr.md)
 + [CSS를 위한 style 태그](./HTML/17.style-tag.md)
 + [자바스크립트를 위한 script 태그](./HTML/18.script-tag.md)
++ [메타 태그에 대해](./HTML/19.meta-tag.md)
 
 ## CSS
 CSS의 기능과 특징을 알아보도록 하자.
