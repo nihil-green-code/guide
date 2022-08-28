@@ -3,16 +3,35 @@
   margin: 0;
 }
 
-div {
-  width: 500px;
-  height: 500px;
-  background-color: #333333;
+body {
+  padding: 20px;
 }
 
-div>div {
+div.outer:not(:last-child) {
+  display: inline-block;
   background-color: #888888;
+  margin-bottom: 20px;
+  border: 2px solid #333333;
 }
 
-div#outer {
-  padding: 50px 80px 20px;
+div.outer>div {
+  background-color: #333333;
+  width: 100px;
+  height: 100px;
+}
+
+div.inner1 {
+  margin: 10px;
+}
+
+div.inner2 {
+  margin: 10px 20px;
+}
+
+div.inner3 {
+  margin: 10px 20px 30px;
+}
+
+div.inner4 {
+  margin: 10px 20px 30px 40px;
 }
