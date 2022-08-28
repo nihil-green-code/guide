@@ -12,18 +12,77 @@
 </head>
 
 <body>
-  <div class="outer">
-    <div class="inner1"></div>
-  </div>
-  <div class="outer">
-    <div class="inner2"></div>
-  </div>
-  <div class="outer">
-    <div class="inner3"></div>
-  </div>
-  <div class="outer">
-    <div class="inner4"></div>
-  </div>
+  <table>
+    <tr>
+      <th colspan="3">기본형</th>
+    </tr>
+    <tr>
+      <th>타입 이름</th>
+      <th>설명</th>
+      <th>크기</th>
+    </tr>
+    <tr>
+      <th>boolean</th>
+      <td>참(True) 혹은 거짓(False)을 담을 수 있는 타입</td>
+      <td>1byte</td>
+    </tr>
+    <tr>
+      <th>char</th>
+      <td>
+        문자 하나를 담을 수 있는 타입.
+        <br>범위는 0 ~ 65535
+      </td>
+      <td>2byte</td>
+    </tr>
+    <tr>
+      <th>byte</th>
+      <td>
+        가장 작은 정수형 타입.
+        <br>범위는 -128 ~ 127
+      </td>
+      <td>1byte</td>
+    </tr>
+    <tr>
+      <th>short</th>
+      <td>
+        작은 정수형 타입.
+        <br>범위는 -32,768 ~ 32,767
+      </td>
+      <td>2byte</td>
+    </tr>
+    <tr>
+      <th>int</th>
+      <td>
+        일반적인 정수형 타입.
+        <br>범위는 -2,147,483,648 ~ 2,147,483,647
+      </td>
+      <td>4byte</td>
+    </tr>
+    <tr>
+      <th>long</th>
+      <td>
+        가장 긴 정수형 타입.
+        <br>범위는 -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807
+      </td>
+      <td>8byte</td>
+    </tr>
+    <tr>
+      <th>float</th>
+      <td>
+        실수형 타입.
+        <br>범위는 1.4E-45 ~ 3.4E38
+      </td>
+      <td>4byte</td>
+    </tr>
+    <tr>
+      <th>double</th>
+      <td>
+        float보다 큰 실수형 타입.
+        <br>범위는 4.9E-324 ~ 1.8E308
+      </td>
+      <td>8byte</td>
+    </tr>
+  </table>
 </body>
 
 </html>
