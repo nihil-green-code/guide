@@ -1,15 +1,17 @@
-table {
-  border: 5px solid #136cd2;
-  border-collapse: collapse;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-th,
-td {
-  border: 1px dotted #136cd2;
-  padding: 10px;
+div {
+  background-color: #333333;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
 }
 
-th {
-  background-color: #136cd230;
-  color: #136cd2;
+div.box2 {
+  box-sizing: border-box;
 }

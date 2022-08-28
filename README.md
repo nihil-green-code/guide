@@ -68,7 +68,7 @@ CSS의 기능과 특징을 알아보도록 하자.
 + **박스 모델(Box Model)**
   + [너비와 높이](./CSS/5.box-model/5.1.width-height.md)
   + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
-  + 박스 사이즈 기준 바꾸기
+  + [박스 크기 기준 바꾸기](./CSS/6.box-sizing.md)
 
 ## JavaScript
 준비중
