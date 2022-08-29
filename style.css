@@ -3,15 +3,13 @@
   margin: 0;
 }
 
-div {
+body>div {
   background-color: #333333;
-  width: 400px;
-  height: 400px;
-  padding: 20px;
-  margin: 20px;
-  display: inline-block;
+  height: 100vh;
 }
 
-div.box2 {
-  box-sizing: border-box;
+div>div {
+  background-color: yellow;
+  width: 50vmin;
+  height: 50vmin;
 }
