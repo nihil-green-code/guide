@@ -12,6 +12,6 @@ div {
   line-height: 100px;
 }
 
-.visibility {
+div:hover {
   visibility: hidden;
 }
