@@ -3,13 +3,15 @@
   margin: 0;
 }
 
-body>div {
+div {
+  width: 200px;
+  height: 100px;
+  text-align: center;
   background-color: #333333;
-  height: 100vh;
+  color: #ffffff;
+  line-height: 100px;
 }
 
-div>div {
-  background-color: yellow;
-  width: 50vmin;
-  height: 50vmin;
+.visibility {
+  visibility: hidden;
 }

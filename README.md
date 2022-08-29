@@ -65,10 +65,12 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [선택자의 우선순위](./CSS/2.selector/2.6.selector-rank.md)
 + [색상](./CSS/3.color.md)
 + [단위](./CSS/4.unit.md)
++ [예제 1 - 체스 테이블 만들기](./CSS/ex/1.chess-table.md)
 + **박스 모델(Box Model)**
   + [너비와 높이](./CSS/5.box-model/5.1.width-height.md)
   + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
   + [박스 크기 기준 바꾸기](./CSS/6.box-sizing.md)
++ [display와 visibility](./CSS/7.display-and-visibility.md)
 
 ## JavaScript
 준비중
