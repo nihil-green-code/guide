@@ -70,8 +70,17 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [너비와 높이](./CSS/5.box-model/5.1.width-height.md)
   + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
   + [박스 크기 기준 바꾸기](./CSS/6.box-sizing.md)
++ **텍스트 관련 속성**
+  + [텍스트 정렬](./CSS/10.text/10.1.text-align.md)
+  + [텍스트 들여쓰기](./CSS/10.text/10.2.text-indent.md)
+  + [텍스트의 간격](./CSS/10.text/10.3.spacing.md)
+  + [텍스트의 높이](./CSS/10.text/10.4.line-height.md)
+  + [텍스트의 굵기](./CSS/10.text/10.5.font-weight.md)
 + [display와 visibility](./CSS/7.display-and-visibility.md)
 + [overflow](./CSS/8.overflow.md)
++ [white space](./CSS/9.white-space.md)
++ [웹 접근성](./CSS/11.web-accessibility/11.0.intro.md)
+  + [IR(Image Replacement)](./CSS/11.web-accessibility/11.1.image-replacement.md)
 
 ## JavaScript
 준비중
