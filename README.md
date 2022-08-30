@@ -79,6 +79,12 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [텍스트 스타일](./CSS/10.text/10.6.font-style.md)
   + [텍스트 꾸미기](./CSS/10.text/10.7.text-decoration.md)
   + [텍스트 대소문자 변경](./CSS/10.text/10.8.text-trasnform.md)
+  + [텍스트 폰트 지정](./CSS/10.text/10.9.font-family.md)
++ **배경**
+  + [배경 색상](./CSS/12.background/12.1.background-color.md)
+  + [배경 이미지](./CSS/12.background/12.2.background-image.md)
+  + [이미지 스프라이트](./CSS/12.background/12.3.image-sprite.md)
+  + [배경 고정하기](./CSS/12.background/12.4.background-attachment.md)
 + [display와 visibility](./CSS/7.display-and-visibility.md)
 + [overflow](./CSS/8.overflow.md)
 + [white space](./CSS/9.white-space.md)
