@@ -45,6 +45,8 @@ HTML의 기능과 문법을 알아보도록 하자.
   + [datalist 태그](./HTML/14.form/14.6.datalist-tag.md)
   + [form 요소 그룹화하기](./HTML/14.form/14.7.fieldset-tag.md)
   + [textarea 태그](./HTML/14.form/14.8.textarea-tag.md)
++ 추가, 삭제 태그 - ins 태그, del 태그 설명
++ 태그 접기 - details 태그, summary 태그 설명
 + [멀티미티어 태그들](./HTML/15.media-tags.md)
 + [사용자 지정 속성(data)](./HTML/16.data-attr.md)
 + [CSS를 위한 style 태그](./HTML/17.style-tag.md)
@@ -80,15 +82,21 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [텍스트 꾸미기](./CSS/10.text/10.7.text-decoration.md)
   + [텍스트 대소문자 변경](./CSS/10.text/10.8.text-trasnform.md)
   + [텍스트 폰트 지정](./CSS/10.text/10.9.font-family.md)
-+ **배경**
++ [**배경**](./CSS/12.background/12.0.intro.md)
   + [배경 색상](./CSS/12.background/12.1.background-color.md)
   + [배경 이미지](./CSS/12.background/12.2.background-image.md)
   + [이미지 스프라이트](./CSS/12.background/12.3.image-sprite.md)
   + [배경 고정하기](./CSS/12.background/12.4.background-attachment.md)
 + [display와 visibility](./CSS/7.display-and-visibility.md)
 + [overflow](./CSS/8.overflow.md)
-+ [white space](./CSS/9.white-space.md)
-+ [웹 접근성](./CSS/11.web-accessibility/11.0.intro.md)
++ [공백 처리](./CSS/9.white-space.md)
++ 플렉서블 박스 - 플렉스 설명하기
+  + 플렉서블 박스 만들기 - display: flex 다루기
+  + 플렉스 관련 태그들 설명하기
++ 그리드 - 그리드 설명하기
+  + 그리드 만들기 - display: grid 다루기
+  + 그리드 관련 태그 설명하기
++ [**웹 접근성**](./CSS/11.web-accessibility/11.0.intro.md)
   + [IR(Image Replacement)](./CSS/11.web-accessibility/11.1.image-replacement.md)
 
 ## JavaScript

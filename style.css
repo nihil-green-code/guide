@@ -1,72 +1,18 @@
-/* * {
-  padding: 0;
-  margin: 0;
+div {
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
+div.red {
+  background: repeat url(./image/iu2.jpg) center center/50px;
 }
 
-li {
-  list-style-type: none;
+div.blue {
+  background: blue url(./image/iu.jpg) no-repeat center -100px/510px;
 }
 
-li a {
-  background-image: url(./image/menu.jpg);
-  display: inline-block;
-  width: 304px;
-  height: 113px;
+div.yellow {
+  background: url(./image/iu3.jpg) no-repeat center center/500px scroll yellow;
 }
-
-li a {
-  text-indent: -9999em;
-}
-
-.cafe {
-  background-position: -305px 0;
-}
-
-.blog {
-  background-position: calc(-305px * 2) 0;
-}
-
-.jisic {
-  background-position: calc(-305px * 3) 0;
-}
-
-.mail:hover {
-  background-position: 0 -114px;
-}
-
-.cafe:hover {
-  background-position: -305px -114px;
-}
-
-.blog:hover {
-  background-position: calc(-305px * 2) -114px;
-}
-
-.jisic:hover {
-  background-position: calc(-305px * 3) -114px;
-}
-
-ul {
-  white-space: nowrap;
-}
-
-ul:nth-of-type(2) li {
-  display: inline-block;
-}
-
-/*
-body {
-  background-image: url(./image/iu2.jpg);
-
-  background-repeat: no-repeat;
-  background-position: center center;
-
-  background-attachment: scroll;
-
-  background-attachment: fixed;
-}
-*/
