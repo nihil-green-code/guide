@@ -1,13 +1,33 @@
-div {
-  background-color: #333333;
-  color: #ffffff;
-  padding: 10px;
-  border: 2px solid blue;
+/* * {
+  padding: 0;
+  margin: 0;
 }
 
-span {
-  margin: 10px;
-  padding: 10px;
-  background-color: white;
-  color: black;
+div {
+  background-color: #333333;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+}
+
+div.box2 {
+  box-sizing: border-box;
+} */
+
+div.outer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  border: 5px solid magenta;
+}
+
+div.inner {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
 }
