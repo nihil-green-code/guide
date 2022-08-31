@@ -1,18 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+}
+
 div {
-  width: 500px;
+  background-color: #333333;
+  width: 200px;
   height: 200px;
-  border: 2px solid black;
-  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 10px solid red;
+  display: inline-block;
 }
 
-div.red {
-  background: repeat url(./image/iu2.jpg) center center/50px;
+div:nth-child(1) {
+  /* 전체 */
+  border-radius: 10px;
 }
 
-div.blue {
-  background: blue url(./image/iu.jpg) no-repeat center -100px/510px;
+div:nth-child(2) {
+  /* 좌상,우하 우상,좌하 */
+  border-radius: 10px 20px;
 }
 
-div.yellow {
-  background: url(./image/iu3.jpg) no-repeat center center/500px scroll yellow;
+div:nth-child(3) {
+  /* 좌상 우상,좌하 우하 */
+  border-radius: 10px 20px 30px;
+}
+
+div:nth-child(4) {
+  /* 좌상 우상 우하 좌하 */
+  border-radius: 10px 20px 30px 40px;
+}
+
+div:nth-child(5) {
+  /* 전체의 모서리를 50% 깎아 원으로 만들 수 있다. */
+  border-radius: 50%;
+}
+
+div:nth-child(6) {
+  /* 전체의 모서리를 컨트롤 하되 x축과 y축의 기울기를 달리 설정할 수 있다. */
+  border-top-left-radius: 20% 10%;
 }

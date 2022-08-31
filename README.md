@@ -45,7 +45,7 @@ HTML의 기능과 문법을 알아보도록 하자.
   + [datalist 태그](./HTML/14.form/14.6.datalist-tag.md)
   + [form 요소 그룹화하기](./HTML/14.form/14.7.fieldset-tag.md)
   + [textarea 태그](./HTML/14.form/14.8.textarea-tag.md)
-+ 추가, 삭제 태그 - ins 태그, del 태그 설명
++ [내용 추가와 삭제 태그](./HTML/20.ins-del-tag.md)
 + 태그 접기 - details 태그, summary 태그 설명
 + [멀티미티어 태그들](./HTML/15.media-tags.md)
 + [사용자 지정 속성(data)](./HTML/16.data-attr.md)
@@ -68,10 +68,11 @@ CSS의 기능과 특징을 알아보도록 하자.
 + [색상](./CSS/3.color.md)
 + [단위](./CSS/4.unit.md)
 + [예제 1 - 체스 테이블 만들기](./CSS/ex/1.chess-table.md)
-+ **박스 모델(Box Model)**
++ [**박스 모델(Box Model)**](./CSS/5.box-model/5.0.intro.md)
   + [너비와 높이](./CSS/5.box-model/5.1.width-height.md)
   + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
-  + [박스 크기 기준 바꾸기](./CSS/6.box-sizing.md)
+  + [박스 크기 기준 바꾸기](./CSS/5.box-model/5.3.box-sizing.md)
+  + [아웃라인](./CSS/5.box-model/5.4.outline.md)
 + **텍스트 관련 속성**
   + [텍스트 정렬](./CSS/10.text/10.1.text-align.md)
   + [텍스트 들여쓰기](./CSS/10.text/10.2.text-indent.md)
