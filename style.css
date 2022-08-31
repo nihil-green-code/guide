@@ -1,12 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
+div {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  border: 2px solid blue;
 }
 
-div {
-  width: 200px;
-  height: 50px;
-  border: 2px solid red;
-  margin: 0 20px;
-  display: inline-block;
+span {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  color: black;
 }
