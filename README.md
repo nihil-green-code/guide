@@ -67,7 +67,7 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [선택자의 우선순위](./CSS/2.selector/2.6.selector-rank.md)
 + [색상](./CSS/3.color.md)
 + [단위](./CSS/4.unit.md)
-+ [예제 1 - 체스 테이블 만들기](./CSS/ex/1.chess-table.md)
++ [예제 1 - 체스 테이블 만들기](./CSS/6.ex/1.chess-table.md)
 + [**박스 모델(Box Model)**](./CSS/5.box-model/5.0.intro.md)
   + [너비와 높이](./CSS/5.box-model/5.1.width-height.md)
   + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
@@ -91,7 +91,12 @@ CSS의 기능과 특징을 알아보도록 하자.
 + [display와 visibility](./CSS/7.display-and-visibility.md)
 + [overflow](./CSS/8.overflow.md)
 + [공백 처리](./CSS/9.white-space.md)
++ [예제 2 - 정중앙으로 박스 고정하기](./CSS/6.ex/2.middle-center-box.md)
++ [예제 3 - 레이아웃 만들기](./CSS/6.ex/3.create-layout.md)
 + [플로팅](./CSS/15.float.md)
++ [예제 4 - 레이아웃 float 사용해서 리팩토링하기](./CSS/6.ex/4.layout-refactoring.md)
++ 포지션
++ 예제 5 - 2단 메뉴 만들기
 + 플렉시블 박스 - 플렉스 설명하기
   + 플렉시블 박스 만들기 - display: flex 다루기
   + 플렉스 관련 태그들 설명하기

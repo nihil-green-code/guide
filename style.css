@@ -1,152 +1,66 @@
+/* 초기화 */
 * {
+  margin: 0;
   padding: 0;
-  margin: 0;
 }
 
-div.outer {
-  width: 500px;
-  height: 500px;
-  background-color: #333333;
+/* 전체 레이아웃 */
+header,
+main,
+footer {
+  width: calc(1024px*.8);
+  margin: 0 auto;
+  text-align: center;
 }
 
-div.left {
-  float: left;
-  background-color: red;
-  width: 100px;
-  height: 100px;
+header,
+footer {
+  line-height: 20vh;
 }
 
-div.right {
-  float: right;
-  background-color: blue;
-  width: 100px;
-  height: 100px;
+main {
+  height: 60vh;
 }
 
-div.outer p {
-  color: #dddddd;
-  text-align: justify;
-  word-break: break-all;
+/* 헤더 */
+
+header {
+  background-color: bisque;
 }
 
-/* div {
-  background-color: antiquewhite;
-}
+/* 메인 */
 
-.left,
-.right {
-  background-color: aqua;
-}
-
-.none {
-  background-color: coral;
-}
-
-.size {
-  width: 100px;
-  height: 50px;
-}
-
-img {
-  width: 150px;
-  height: 100px;
-}
-
-p {
-  text-align: justify;
-  word-break: break-all;
-}
-
-.left {
+#section_article {
+  width: 70%;
+  height: 100%;
   float: left;
 }
 
-.right {
-  float: right;
+section {
+  line-height: calc(60vh*.6);
+  background-color: darkgray;
 }
 
-img.left {
-  margin-right: 20px;
+article {
+  line-height: calc(60vh*.4);
+  background-color: cadetblue;
 }
 
-img.right {
-  margin-left: 20px;
-}
-
-.none {
-  width: 300px;
-  width: 100px;
-} */
-
-/* * {
-  margin: 0;
-}
-
-div {
-  border: 1px sold red;
-  padding: 10px;
-}
-
-img {
-  width: 150px;
-  height: 150px;
-}
-
-p {
-  text-align: justify;
-  word-break: break-all;
-}
-
-.float_left {
+aside {
+  width: 30%;
+  background-color: burlywood;
+  line-height: 60vh;
   float: left;
 }
 
-.float_right {
-  float: right;
-}
-
-.clear_left:hover img+p {
-  clear: left;
-}
-
-.clear_right:hover img+p::after {
+main::after {
   content: '';
-  display: block;
-  clear: right;
-}
-
-.clear_both:hover img+p::after {
-  content: "";
   display: block;
   clear: both;
 }
 
-div {
-  border: none;
-  padding: 0;
-}
+/* 푸터 */
 
-.container {
+footer {
   background-color: antiquewhite;
-  width: 500px;
 }
-
-.container div {
-  width: 100px;
-  height: 100px;
-  background-color: #888888;
-  border: 1px solid red;
-  text-align: center;
-  line-height: 100px;
-  float: right;
-}
-
-.container::after {
-  content: '';
-  display: block;
-  clear: right;
-}
-
-.container {
-  display: inline-block;
-} */
