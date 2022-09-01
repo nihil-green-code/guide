@@ -1,33 +1,152 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
 }
 
-div {
-  background-color: #333333;
-  width: 400px;
-  height: 400px;
-  padding: 20px;
-  margin: 20px;
-  display: inline-block;
-}
-
-div.box2 {
-  box-sizing: border-box;
-} */
-
 div.outer {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 500px;
+  height: 500px;
   background-color: #333333;
-  border: 5px solid magenta;
 }
 
-div.inner {
+div.left {
+  float: left;
+  background-color: red;
   width: 100px;
   height: 100px;
-  background-color: #ffffff;
 }
+
+div.right {
+  float: right;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+div.outer p {
+  color: #dddddd;
+  text-align: justify;
+  word-break: break-all;
+}
+
+/* div {
+  background-color: antiquewhite;
+}
+
+.left,
+.right {
+  background-color: aqua;
+}
+
+.none {
+  background-color: coral;
+}
+
+.size {
+  width: 100px;
+  height: 50px;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+p {
+  text-align: justify;
+  word-break: break-all;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+img.left {
+  margin-right: 20px;
+}
+
+img.right {
+  margin-left: 20px;
+}
+
+.none {
+  width: 300px;
+  width: 100px;
+} */
+
+/* * {
+  margin: 0;
+}
+
+div {
+  border: 1px sold red;
+  padding: 10px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  text-align: justify;
+  word-break: break-all;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.clear_left:hover img+p {
+  clear: left;
+}
+
+.clear_right:hover img+p::after {
+  content: '';
+  display: block;
+  clear: right;
+}
+
+.clear_both:hover img+p::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div {
+  border: none;
+  padding: 0;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 500px;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+  background-color: #888888;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 100px;
+  float: right;
+}
+
+.container::after {
+  content: '';
+  display: block;
+  clear: right;
+}
+
+.container {
+  display: inline-block;
+} */
