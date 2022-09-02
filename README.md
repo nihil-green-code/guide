@@ -95,7 +95,10 @@ CSS의 기능과 특징을 알아보도록 하자.
 + [예제 3 - 레이아웃 만들기](./CSS/6.ex/3.create-layout.md)
 + [플로팅](./CSS/15.float.md)
 + [예제 4 - 레이아웃 float 사용해서 리팩토링하기](./CSS/6.ex/4.layout-refactoring.md)
-+ 포지션
++ [**포지션**](./CSS/16.position/16.0.intro.md)
+  + [fixed](./CSS/16.position/16.1.fixed.md)
+  + [relative](./CSS/16.position/16.2.relative.md)
+  + [absolute](./CSS/16.position/16.3.absolute.md)
 + 예제 5 - 2단 메뉴 만들기
 + 플렉시블 박스 - 플렉스 설명하기
   + 플렉시블 박스 만들기 - display: flex 다루기
