@@ -99,6 +99,7 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [fixed](./CSS/16.position/16.1.fixed.md)
   + [relative](./CSS/16.position/16.2.relative.md)
   + [absolute](./CSS/16.position/16.3.absolute.md)
+  + [z-index](./CSS/16.position/16.4.z-index.md)
 + 예제 5 - 2단 메뉴 만들기
 + 플렉시블 박스 - 플렉스 설명하기
   + 플렉시블 박스 만들기 - display: flex 다루기

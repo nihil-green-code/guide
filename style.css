@@ -1,66 +1,10 @@
-/* 초기화 */
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-/* 전체 레이아웃 */
-header,
-main,
-footer {
-  width: calc(1024px*.8);
-  margin: 0 auto;
-  text-align: center;
-}
+/* .inner {} */
 
-header,
-footer {
-  line-height: 20vh;
-}
-
-main {
-  height: 60vh;
-}
-
-/* 헤더 */
-
-header {
-  background-color: bisque;
-}
-
-/* 메인 */
-
-#section_article {
-  width: 70%;
-  height: 100%;
-  float: left;
-}
-
-section {
-  line-height: calc(60vh*.6);
-  background-color: darkgray;
-}
-
-article {
-  line-height: calc(60vh*.4);
-  background-color: cadetblue;
-}
-
-aside {
-  width: 30%;
-  background-color: burlywood;
-  line-height: 60vh;
-  float: left;
-}
-
-main::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* 푸터 */
-
-footer {
-  background-color: antiquewhite;
+.inner div {
+  position: absolute;
 }
