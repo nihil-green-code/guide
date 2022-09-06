@@ -1,10 +1,37 @@
-* {
-  padding: 0;
-  margin: 0;
+div.outer {
+  padding: 20px;
+  display: flex;
+  background-color: #333333;
+  border: 5px solid magenta;
+  margin-bottom: 20px;
 }
 
-/* .inner {} */
+div.outer.row {
+  flex-direction: row;
+}
 
-.inner div {
-  position: absolute;
+div.outer.row-reverse {
+  flex-direction: row-reverse;
+}
+
+div.outer.column {
+  flex-direction: column;
+}
+
+div.outer.column-reverse {
+  flex-direction: column-reverse;
+}
+
+div.outer div {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+div.outer div:nth-of-type(odd) {
+  background-color: bisque;
+}
+
+div.outer div:nth-of-type(even) {
+  background-color: burlywood;
 }
