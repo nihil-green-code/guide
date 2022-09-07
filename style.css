@@ -1,37 +1,64 @@
-div.outer {
-  padding: 20px;
-  display: flex;
+/* ==================== 초기화 ==================== */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ==================== 전체 레이아웃 ==================== */
+header,
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header nav li {
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+/* ==================== 메인 메뉴 ==================== */
+nav>ul>li {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+  line-height: 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+nav>ul {
   background-color: #333333;
-  border: 5px solid magenta;
-  margin-bottom: 20px;
+  color: #ffffff;
 }
 
-div.outer.row {
-  flex-direction: row;
+nav>ul::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-div.outer.row-reverse {
-  flex-direction: row-reverse;
+/* ==================== 서브 메뉴 ==================== */
+nav>ul ul {
+  display: none;
+  width: 100%;
+  position: absolute;
+  background-color: #444444;
+  text-align: left;
+  left: 0;
+  font-size: 0.7rem;
 }
 
-div.outer.column {
-  flex-direction: column;
+nav>ul>li:hover ul {
+  display: block;
 }
 
-div.outer.column-reverse {
-  flex-direction: column-reverse;
-}
-
-div.outer div {
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-}
-
-div.outer div:nth-of-type(odd) {
-  background-color: bisque;
-}
-
-div.outer div:nth-of-type(even) {
-  background-color: burlywood;
+/* ==================== 본문 ==================== */
+p {
+  text-align: justify;
+  word-break: break-all;
+  margin-top: 20px;
 }
