@@ -1,64 +1,44 @@
-/* ==================== 초기화 ==================== */
 * {
   padding: 0;
   margin: 0;
 }
 
-ul {
-  list-style: none;
+body {
+  padding: 20px;
 }
 
-/* ==================== 전체 레이아웃 ==================== */
-header,
-main {
-  width: 600px;
-  margin: 0 auto;
+div.flex {
+  display: flex;
+  width: 500px;
+  height: 100px;
+  border: 5px solid #333333;
+  margin-bottom: 20px;
 }
 
-header nav li {
-  box-sizing: border-box;
-  padding: 0 20px;
-}
-
-/* ==================== 메인 메뉴 ==================== */
-nav>ul>li {
-  float: left;
-  width: 25%;
-  padding: 0 20px;
-  line-height: 40px;
-  box-sizing: border-box;
-  position: relative;
-}
-
-nav>ul {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-nav>ul::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ==================== 서브 메뉴 ==================== */
-nav>ul ul {
-  display: none;
+div.flex div {
   width: 100%;
-  position: absolute;
-  background-color: #444444;
-  text-align: left;
-  left: 0;
-  font-size: 0.7rem;
 }
 
-nav>ul>li:hover ul {
-  display: block;
+div.box1 {
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
-/* ==================== 본문 ==================== */
-p {
-  text-align: justify;
-  word-break: break-all;
-  margin-top: 20px;
+div.box2 {
+  background-color: rgba(0, 128, 0, 0.5);
+}
+
+div.box3 {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+div.box4 {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+div.flex.two div.box1 {
+  order: 4;
+}
+
+div.flex.two div.box3 {
+  order: 3;
 }

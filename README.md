@@ -104,10 +104,13 @@ CSS의 기능과 특징을 알아보도록 하자.
 + 예제 6 - 레이아웃 리팩토링: position, hover
 + [**플렉시블 박스**](./CSS/13.flexbox/13.0.intro.md)
   + [플렉시블 박스 만들기](./CSS/13.flexbox/13.1.make-flex.md)
-  + 플렉스 관련 태그들 설명하기
+  + [플렉스 아이템의 줄바꿈](./CSS/13.flexbox/13.2.flex-wrap.md)
+  + [플렉스 아이템의 순서](./CSS/13.flexbox/13.3.order.md)
+  + 플렉스 관련 속성들 설명하기
 + 그리드 - 그리드 설명하기
   + 그리드 만들기 - display: grid 다루기
-  + 그리드 관련 태그 설명하기
+  + 그리드의 행과 열 - grid-template 설명하기
+  + 그리드 관련 속성들 설명하기
 + [**웹 접근성**](./CSS/11.web-accessibility/11.0.intro.md)
   + [IR(Image Replacement)](./CSS/11.web-accessibility/11.1.image-replacement.md)
 
