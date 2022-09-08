@@ -101,7 +101,7 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [absolute](./CSS/16.position/16.3.absolute.md)
   + [z-index](./CSS/16.position/16.4.z-index.md)
 + [예제 5 - 사각형 벤 다이어그램 만들기](./CSS/6.ex/5.ben-diagram.md)
-+ 예제 6 - 레이아웃 리팩토링: position, hover
++ [예제 6 - 레이아웃 리팩토링: position, hover]()
 + [**플렉시블 박스**](./CSS/13.flexbox/13.0.intro.md)
   + [플렉시블 박스 만들기](./CSS/13.flexbox/13.1.make-flex.md)
   + [플렉스 아이템의 줄바꿈](./CSS/13.flexbox/13.2.flex-wrap.md)
