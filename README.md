@@ -106,6 +106,15 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [플렉시블 박스 만들기](./CSS/13.flexbox/13.1.make-flex.md)
   + [플렉스 아이템의 줄바꿈](./CSS/13.flexbox/13.2.flex-wrap.md)
   + [플렉스 아이템의 순서](./CSS/13.flexbox/13.3.order.md)
+  + [플렉스 아이템 교차축 정렬](./CSS/13.flexbox/13.4.align/13.4.0.intro.md)
+    + [align-items](./CSS/13.flexbox/13.4.align/13.4.1.align-items.md)
+    + [align-self](./CSS/13.flexbox/13.4.align/13.4.2.align-self.md)
+    + [align-content](./CSS/13.flexbox/13.4.align/13.4.3.align-content.md)
+  + [플렉스 아이템 주축 정렬](./CSS/13.flexbox/13.5.justify.md)
+  + [플렉스 아이템 공간할당](./CSS/13.flexbox/13.6.flex/13.6.0.intro.md)
+    + [flex-basis](./CSS/13.flexbox/13.6.flex/13.6.1.flex-basis.md)
+    + [flex-grow](./CSS/13.flexbox/13.6.flex/13.6.2.flex-grow.md)
+    + []()
   + 플렉스 관련 속성들 설명하기
 + 그리드 - 그리드 설명하기
   + 그리드 만들기 - display: grid 다루기
