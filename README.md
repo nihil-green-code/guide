@@ -73,6 +73,7 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [여백과 테두리](./CSS/5.box-model/5.2.padding-border-margin.md)
   + [박스 크기 기준 바꾸기](./CSS/5.box-model/5.3.box-sizing.md)
   + [아웃라인](./CSS/5.box-model/5.4.outline.md)
+  + [박스의 그림자](./CSS/5.box-model/5.5.box-shadow.md)
 + **텍스트 관련 속성**
   + [텍스트 정렬](./CSS/10.text/10.1.text-align.md)
   + [텍스트 들여쓰기](./CSS/10.text/10.2.text-indent.md)
@@ -83,6 +84,7 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [텍스트 꾸미기](./CSS/10.text/10.7.text-decoration.md)
   + [텍스트 대소문자 변경](./CSS/10.text/10.8.text-trasnform.md)
   + [텍스트 폰트 지정](./CSS/10.text/10.9.font-family.md)
+  + [텍스트의 그림자](./CSS/10.text/10.10.text-shadow.md)
 + [**배경**](./CSS/12.background/12.0.intro.md)
   + [배경 색상](./CSS/12.background/12.1.background-color.md)
   + [배경 이미지](./CSS/12.background/12.2.background-image.md)
@@ -101,7 +103,7 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [absolute](./CSS/16.position/16.3.absolute.md)
   + [z-index](./CSS/16.position/16.4.z-index.md)
 + [예제 5 - 사각형 벤 다이어그램 만들기](./CSS/6.ex/5.ben-diagram.md)
-+ [예제 6 - 레이아웃 리팩토링: position, hover]()
++ [예제 6 - 레이아웃 리팩토링: position, hover](./CSS/6.ex/6.layout-refactoring-position.md)
 + [**플렉시블 박스**](./CSS/13.flexbox/13.0.intro.md)
   + [플렉시블 박스 만들기](./CSS/13.flexbox/13.1.make-flex.md)
   + [플렉스 아이템의 줄바꿈](./CSS/13.flexbox/13.2.flex-wrap.md)
@@ -114,8 +116,8 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [플렉스 아이템 공간할당](./CSS/13.flexbox/13.6.flex/13.6.0.intro.md)
     + [flex-basis](./CSS/13.flexbox/13.6.flex/13.6.1.flex-basis.md)
     + [flex-grow](./CSS/13.flexbox/13.6.flex/13.6.2.flex-grow.md)
-    + []()
-  + 플렉스 관련 속성들 설명하기
+    + [flex-shrink](./CSS/13.flexbox/13.6.flex/13.6.3.flex-shrink.md)
++ [예제 7 - 플렉시블 박스로 박스 정렬하기](./CSS/6.ex/7.flex-layout-align.md)
 + 그리드 - 그리드 설명하기
   + 그리드 만들기 - display: grid 다루기
   + 그리드의 행과 열 - grid-template 설명하기

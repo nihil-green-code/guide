@@ -1,51 +1,95 @@
+/* ==================== 초기화 ==================== */
 * {
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+/* ==================== 전체 레이아웃 ==================== */
+header,
+main,
+footer {
+  width: calc(1024px*.8);
+  margin: 0 auto;
 }
 
-div.banner {
-  width: 700px;
-  height: 150px;
+header,
+footer {
+  line-height: 20vh;
+}
+
+main {
+  height: 60vh;
+}
+
+main,
+#section_article section,
+#section_article article,
+h2 {
   position: relative;
-  box-sizing: border-box;
-  color: #ffffff;
-  font-size: 4rem;
-  letter-spacing: 40px;
-  font-weight: 900;
-  text-transform: uppercase;
-  border: 1px solid #333333;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-div.banner::before {
-  content: '';
-  width: 100%;
-  height: 100%;
+/* ==================== 헤더 ==================== */
+header {
+  background-color: bisque;
+}
+
+/* ==================== 메인 왼쪽 본문 ==================== */
+#section_article {
+  width: 70%;
+  height: 60vh;
   position: absolute;
-  background: url(./image/iu3.jpg) 0/cover;
-  opacity: 0.3;
-  z-index: -1;
 }
 
-div.banner::after {
-  content: 'FlexBox';
+#section_article section {
+  height: calc(60vh * .6);
+}
+
+#section_article article {
+  height: calc(60vh * .4);
+}
+
+#section_article section h2 {
+  background-color: darkgray;
+  line-height: calc(60vh * .6);
+}
+
+#section_article article h2 {
+  background-color: cadetblue;
+  line-height: calc(60vh * .4);
+}
+
+#section_article section:hover h2,
+#section_article article:hover h2 {
+  left: calc((100% / 7 * 3)/2);
+  z-index: 1;
+}
+
+#section_article section:hover h2 {
+  top: calc((100% / 6 * 4)/2);
+}
+
+#section_article article:hover h2 {
+  bottom: calc((100% / 4 * 6)/2);
+}
+
+/* ==================== 사이드 ==================== */
+aside {
+  width: 30%;
+  line-height: 60vh;
   position: absolute;
-  opacity: 0.3;
-  margin-left: -10px;
-  margin-top: -10px;
+  right: 0;
 }
 
-div.banner,
-div.banner::after {
-  padding-left: 40px;
+aside h2 {
+  background-color: burlywood;
+}
+
+aside:hover h2 {
+  right: -100%;
+}
+
+/* ==================== 푸터 ==================== */
+footer {
+  background-color: antiquewhite;
 }
