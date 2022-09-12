@@ -1,95 +1,20 @@
-/* ==================== 초기화 ==================== */
 * {
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 
-/* ==================== 전체 레이아웃 ==================== */
-header,
-main,
-footer {
-  width: calc(1024px*.8);
-  margin: 0 auto;
+html {
+  background-color: #ffffff;
 }
 
-header,
-footer {
-  line-height: 20vh;
-}
-
-main {
-  height: 60vh;
-}
-
-main,
-#section_article section,
-#section_article article,
-h2 {
-  position: relative;
-}
-
-/* ==================== 헤더 ==================== */
-header {
-  background-color: bisque;
-}
-
-/* ==================== 메인 왼쪽 본문 ==================== */
-#section_article {
-  width: 70%;
-  height: 60vh;
-  position: absolute;
-}
-
-#section_article section {
-  height: calc(60vh * .6);
-}
-
-#section_article article {
-  height: calc(60vh * .4);
-}
-
-#section_article section h2 {
-  background-color: darkgray;
-  line-height: calc(60vh * .6);
-}
-
-#section_article article h2 {
-  background-color: cadetblue;
-  line-height: calc(60vh * .4);
-}
-
-#section_article section:hover h2,
-#section_article article:hover h2 {
-  left: calc((100% / 7 * 3)/2);
-  z-index: 1;
-}
-
-#section_article section:hover h2 {
-  top: calc((100% / 6 * 4)/2);
-}
-
-#section_article article:hover h2 {
-  bottom: calc((100% / 4 * 6)/2);
-}
-
-/* ==================== 사이드 ==================== */
-aside {
-  width: 30%;
-  line-height: 60vh;
-  position: absolute;
-  right: 0;
-}
-
-aside h2 {
-  background-color: burlywood;
-}
-
-aside:hover h2 {
-  right: -100%;
-}
-
-/* ==================== 푸터 ==================== */
-footer {
-  background-color: antiquewhite;
+body {
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 8rem;
+  font-weight: 900;
 }
