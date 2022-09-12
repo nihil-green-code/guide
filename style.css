@@ -3,18 +3,34 @@
   margin: 0;
 }
 
-html {
-  background-color: #ffffff;
+body {
+  padding: 20px;
 }
 
-body {
+div.grid1 {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+div.grid1 div {
   background-color: #333333;
   color: #ffffff;
+  line-height: 25px;
+}
+
+div.grid2 {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, 50px) repeat(2, 100px) repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px) repeat(2, 100px) repeat(4, 50px);
+  gap: 5px;
+}
+
+div.grid2 div {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  font-size: 8rem;
-  font-weight: 900;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 2rem;
 }
