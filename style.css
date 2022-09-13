@@ -7,30 +7,28 @@ body {
   padding: 20px;
 }
 
-div.grid1 {
+div.grid2,
+div.grid3 {
   width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
   margin-bottom: 50px;
 }
 
-div.grid1 div {
-  background-color: #333333;
-  color: #ffffff;
-  line-height: 25px;
-}
-
-div.grid2 {
-  width: 500px;
-  display: grid;
-  grid-template-columns: repeat(4, 50px) repeat(2, 100px) repeat(4, 50px);
-  grid-template-rows: repeat(4, 50px) repeat(2, 100px) repeat(4, 50px);
-  gap: 5px;
-}
-
-div.grid2 div {
+div.grid2 div,
+div.grid3 div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #333333;
   color: #ffffff;
   font-size: 2rem;
+}
+
+div.grid3 div.item2 {
+  /* grid-row-start: 1; */
+  /* grid-row-end: -1; */
+  grid-row: 1 / -1;
 }
