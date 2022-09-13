@@ -120,8 +120,7 @@ CSS의 기능과 특징을 알아보도록 하자.
 + [예제 7 - 플렉시블 박스로 박스 정렬하기](./CSS/6.ex/7.flex-layout-align.md)
 + [**그리드**](./CSS/14.grid/14.0.intro.md)
   + [그리드 레이아웃 만들기 1](./CSS/14.grid/14.1.make-grid-layout.md)
-  + 그리드 라인 다루기 - grid-row-start, grid-row-end, grid-column-start, grid-column-end
-  <!-- span 설명 필요 -->
+  + [그리드 라인 다루기](./CSS/14.grid/14.2.grid-line.md)
   + 그리드 셀에 이름 지어주기 - grid-area, grid-template-area
   + 그리드 관련 속성들 설명하기
 + [**웹 접근성**](./CSS/11.web-accessibility/11.0.intro.md)
