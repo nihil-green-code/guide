@@ -119,9 +119,11 @@ CSS의 기능과 특징을 알아보도록 하자.
     + [flex-shrink](./CSS/13.flexbox/13.6.flex/13.6.3.flex-shrink.md)
 + [예제 7 - 플렉시블 박스로 박스 정렬하기](./CSS/6.ex/7.flex-layout-align.md)
 + [**그리드**](./CSS/14.grid/14.0.intro.md)
-  + [그리드 레이아웃 만들기 1](./CSS/14.grid/14.1.make-grid-layout.md)
+  + [그리드 레이아웃 만들기(grid-template-row, column)](./CSS/14.grid/14.1.make-grid-layout.md)
   + [그리드 라인 다루기](./CSS/14.grid/14.2.grid-line.md)
-  + 그리드 셀에 이름 지어주기 - grid-area, grid-template-area
+  + [그리드 셀에 이름 지어주기](./CSS/14.grid/14.3.grid-area.md)
+  + [그리드 레이아웃 만들기(grid-template-area)](./CSS/14.grid/14.4.grid-template-areas.md)
+  + [두 가지 방법 모두를 사용한 그리드 레이아웃](./CSS/14.grid/14.5.grid-template.md)
   + 그리드 관련 속성들 설명하기
 + [**웹 접근성**](./CSS/11.web-accessibility/11.0.intro.md)
   + [IR(Image Replacement)](./CSS/11.web-accessibility/11.1.image-replacement.md)
