@@ -18,6 +18,7 @@ div.grid1 {
 div.grid2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px;
   grid-auto-rows: 70px;
   width: 250px;
   gap: 1px;
