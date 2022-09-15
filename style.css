@@ -9,26 +9,24 @@ body {
 
 div.grid1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 250px;
-  margin-bottom: 20px;
-  gap: 1px;
-}
-
-div.grid2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 150px;
-  grid-auto-rows: 70px;
+  grid-template-columns: [name-start] 1fr [name-end content-start] repeat(3, 1fr) [content-end];
+  grid-template-rows: 50px 50px;
   width: 250px;
   gap: 1px;
 }
 
-div.grid1 div,
-div.grid2 div {
+div.grid1 div {
   background-color: #333333;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
+}
+
+div.grid1 div.item1 {
+  grid-column: name;
+}
+
+div.grid1 div.item2 {
+  grid-column: content;
 }
