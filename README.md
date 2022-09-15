@@ -126,10 +126,13 @@ CSS의 기능과 특징을 알아보도록 하자.
     + [grid-auto-rows, grid-auto-column](./CSS/14.grid/14.1.grid-layout-1/14.1.4.grid-auto.md)
     + [repeat()](./CSS/14.grid/14.1.grid-layout-1/14.1.5.repeat.md)
     + [auto, fr](./CSS/14.grid/14.1.grid-layout-1/14.1.6.auto-fr.md)
+    + [minmax](./CSS/14.grid/14.1.grid-layout-1/14.1.7.minmax.md)
   + [그리드 라인 다루기](./CSS/14.grid/14.2.grid-line.md)
   + [그리드 셀에 이름 지어주기](./CSS/14.grid/14.3.grid-area.md)
   + [그리드 레이아웃 만들기(grid-template-area)](./CSS/14.grid/14.4.grid-template-areas.md)
-  + 그리드 관련 속성들 설명하기
+  + [그리드 셀의 정렬](./CSS/14.grid/14.5.justity-align.md)
++ [반응형 웹 디자인](./CSS/17.responsive/17.0.intro.md)
+  + 미디어 쿼리(@media)
 + [**웹 접근성**](./CSS/11.web-accessibility/11.0.intro.md)
   + [IR(Image Replacement)](./CSS/11.web-accessibility/11.1.image-replacement.md)
 
