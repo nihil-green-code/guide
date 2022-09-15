@@ -132,7 +132,11 @@ CSS의 기능과 특징을 알아보도록 하자.
   + [그리드 레이아웃 만들기(grid-template-area)](./CSS/14.grid/14.4.grid-template-areas.md)
   + [그리드 셀의 정렬](./CSS/14.grid/14.5.justity-align.md)
 + [반응형 웹 디자인](./CSS/17.responsive/17.0.intro.md)
-  + 미디어 쿼리(@media)
+  + [1단 레이아웃의 반응형](./CSS/17.responsive/17.1.one-layout-site.md)
+  + [미디어 쿼리(@media)](./CSS/17.responsive/17.2.media-query.md)
+  + 모바일 퍼스트
+  + 데스크탑 퍼스트
+  + 해상도 직접 지정
 + [**웹 접근성**](./CSS/11.web-accessibility/11.0.intro.md)
   + [IR(Image Replacement)](./CSS/11.web-accessibility/11.1.image-replacement.md)
 

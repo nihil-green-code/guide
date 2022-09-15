@@ -4,52 +4,19 @@
 }
 
 div.web {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-header,
-nav,
-aside,
-footer {
+  background-color: yellow;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
-header {
-  background-color: bisque;
-  height: 200px;
-}
-
-nav {
-  background-color: burlywood;
-  height: 100px;
-}
-
-main {
-  background-color: coral;
-  padding: 20px;
-}
-
-section {
-  font-size: 1.2rem;
-}
-
-section p {
-  text-align: justify;
-  word-break: break-all;
-}
-
-aside {
-  background-color: cadetblue;
-  height: 400px;
-}
-
-footer {
-  background-color: darkkhaki;
-  height: 100px;
+/* 최소 너비가 500픽셀이고 최대 너비가 899픽셀일 때 */
+@media (min-width: 500px) and (max-width: 899px) {
+  div.web {
+    background-color: black;
+    color: white;
+  }
 }
