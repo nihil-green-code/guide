@@ -4,19 +4,37 @@
 }
 
 div.web {
-  background-color: yellow;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  font-weight: 700;
+  background-color: #999999;
+  color: #ffffff;
+  transition: background .5s;
 }
 
-/* 최소 너비가 500픽셀이고 최대 너비가 899픽셀일 때 */
-@media (min-width: 500px) and (max-width: 899px) {
+/* 여기까지가 PC에서 보일 스타일 */
+
+/* 여기서부터는 1024 미만의 스타일 */
+/* 주로 좁은 해상도의 PC, 태블릿 */
+@media screen and (max-width: 1023px) {
   div.web {
-    background-color: black;
-    color: white;
+    background-color: #777777;
+  }
+}
+
+/* 여기서부터는 768 미만의 화면 주로 태블릿. */
+/* 모바일에 해당되기도 함. */
+@media screen and (max-width: 767px) {
+  div.web {
+    background-color: #555555;
+  }
+}
+
+/* 여기서부터는 480 미만의 화면 */
+/* 모바일 */
+@media screen and (max-width: 479px) {
+  div.web {
+    background-color: #333333;
   }
 }
