@@ -1,6 +1,7 @@
 # CSS
 + [CSS란?](./CSS/0.CSS.md)
 + [CSS의 문법](./CSS/1.syntax-of-css.md)
++ [HTML에 CSS 연결하기](./CSS/1.1.link-to-css-html.md)
 + **선택자**
   + [선택자의 종류(1)](./CSS/2.selector/2.1.selector1.md)
   + [선택자의 종류(2)](./CSS/2.selector/2.2.selector2.md)
