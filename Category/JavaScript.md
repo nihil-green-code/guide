@@ -1,5 +1,5 @@
 # JavaScript
-+ 자바스크립트란?
++ [자바스크립트란?](./JavaScript/0.JavaScript.md)
 + HTML에 자바스크립트 연결하기
 + 자료형
 + 변수 만들기
