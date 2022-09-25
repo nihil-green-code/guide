@@ -12,13 +12,26 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="header">로고</div>
-    <div class="nav">메뉴</div>
-    <div class="main">컨텐츠</div>
-    <div class="aside">사이드</div>
-    <div class="footer">푸터</div>
-  </div>
+  <div id="number">0</div>
+  <button id="add">+</button>
+  <button id="minus">-</button>
+  <script>
+    const $number = document.getElementById('numbers');
+    const $addButton = document.getElementById('add');
+    const $minusButton = document.getElementById('minus');
+
+    let number = 0;
+
+    $addButton.addEventListener('click', () => {
+      number++;
+      $number.textContent = number;
+    });
+
+    $minusButton.addEventListener('click', () => {
+      number--;
+      $number.textContent = number;
+    });
+  </script>
 </body>
 
 </html>

@@ -6,9 +6,10 @@
 # JavaScript
 + [자바스크립트란?](./JavaScript/0.JavaScript.md)
 + [자바스크립트의 실행환경](./JavaScript/1.js-environment/0.intro.md)
-  + 웹 브라우저에서 실행하기
-  + Node.js에서 실행하기
-+ 디버깅
+  + [웹 브라우저에서 실행하기](./JavaScript/1.js-environment/1.browser-start.md)
+  + [Node.js에서 실행하기](./JavaScript/1.js-environment/2.nodejs-start.md)
+  + [VSCode에서 실행하기](./JavaScript/1.js-environment/3.vscode-start.md)
++ [디버깅](./JavaScript/2.debugging.md)
 + 자료형
 + 변수
   + var와 호이스팅
