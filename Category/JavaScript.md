@@ -5,13 +5,18 @@
 
 # JavaScript
 + [자바스크립트란?](./JavaScript/0.JavaScript.md)
-+ [자바스크립트의 실행환경](./JavaScript/1.js-environment/0.intro.md)
++ [**자바스크립트의 실행환경**](./JavaScript/1.js-environment/0.intro.md)
   + [웹 브라우저에서 실행하기](./JavaScript/1.js-environment/1.browser-start.md)
   + [Node.js에서 실행하기](./JavaScript/1.js-environment/2.nodejs-start.md)
   + [VSCode에서 실행하기](./JavaScript/1.js-environment/3.vscode-start.md)
 + [디버깅](./JavaScript/2.debugging.md)
 + [콘솔에 출력하기](./JavaScript/3.console-log.md)
-+ 자료형
-+ 변수
++ [**자료형(데이터타입)**](./JavaScript/4.data-type/0.intro.md)
+  + [String](./JavaScript/4.data-type/1.string.md)
+  + [Number](./JavaScript/4.data-type/2.number.md)
+  + [Boolean](./JavaScript/4.data-type/3.boolean.md)
+  + [Null](./JavaScript/4.data-type/4.null.md)
+  + [Undefined](./JavaScript/4.data-type/5.undefined.md)
++ [**변수**](./JavaScript/5.variable/0.intro.md)
   + var와 호이스팅
   + const, let 사용하기
