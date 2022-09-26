@@ -10,6 +10,7 @@
   + [Node.js에서 실행하기](./JavaScript/1.js-environment/2.nodejs-start.md)
   + [VSCode에서 실행하기](./JavaScript/1.js-environment/3.vscode-start.md)
 + [디버깅](./JavaScript/2.debugging.md)
++ [콘솔에 출력하기](./JavaScript/3.console-log.md)
 + 자료형
 + 변수
   + var와 호이스팅
