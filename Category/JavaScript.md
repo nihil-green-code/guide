@@ -20,12 +20,13 @@
 + [**변수**](./JavaScript/5.variable/0.intro.md)
   + var와 호이스팅
   + const, let 사용하기
-+ [데이터 입력받기](./JavaScript/6.prompt.md)
-+ [알림 띄우기](./JavaScript/7.alert.md)
-+ [**연산자**](./JavaScript/8.operator/0.intro.md)
-  + 사칙 연산자
-  + [삼항 연산자]()
-  + [관계 연산자]()
++ [prompt()](./JavaScript/6.prompt.md)
++ [alert()](./JavaScript/7.alert.md)
++ [confirm()](./JavaScript/8.confirm.md)
++ [**연산자**](./JavaScript/9.operator/0.intro.md)
+  + 사칙연산자
+  + 삼항연산자
+  + 관계연산자
 + 함수
 + 제어문
   + if, else if, else
