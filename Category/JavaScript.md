@@ -17,12 +17,11 @@
   + [Boolean](./JavaScript/4.data-type/3.boolean.md)
   + [Null](./JavaScript/4.data-type/4.null.md)
   + [Undefined](./JavaScript/4.data-type/5.undefined.md)
-+ [**변수**](./JavaScript/5.variable/0.intro.md)
-  + var와 호이스팅
-  + const, let 사용하기
-+ [prompt()](./JavaScript/6.prompt.md)
-+ [alert()](./JavaScript/7.alert.md)
-+ [confirm()](./JavaScript/8.confirm.md)
++ [변수](./JavaScript/5.variable.md)
++ [**window 객체**](./JavaScript/6.window/0.intro.md)
+  + [prompt()](./JavaScript/6.window/0.intro.md)
+  + [alert()](./JavaScript/6.window/2.alert.md)
+  + [confirm()](./JavaScript/6.window/3.confirm.md)
 + [**연산자**](./JavaScript/9.operator/0.intro.md)
   + 사칙연산자
   + 삼항연산자
