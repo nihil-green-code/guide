@@ -23,7 +23,7 @@
   + [alert()](./JavaScript/6.window/2.alert.md)
   + [confirm()](./JavaScript/6.window/3.confirm.md)
 + [**연산자**](./JavaScript/7.operator/0.intro.md)
-  + [대입 연산자](./JavaScript/7.operator/1.equal.md)
+  + [할당 연산자](./JavaScript/7.operator/1.equal.md)
   + [산술 연산자](./JavaScript/7.operator/2.normal.md)
   + [삼항 조건 연산자](./JavaScript/7.operator/3.ternary.md)
   + [관계 연산자](./JavaScript/7.operator/4.relational.md)
