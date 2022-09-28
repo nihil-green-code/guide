@@ -1,17 +1,4 @@
-let number = 10, result;
-
-// 후위 증가
-result = number++;
-console.log(result, number);
-
-// 전위 증가
-result = ++number;
-console.log(result, number);
-
-// 후위 감소
-result = number--;
-console.log(result, number);
-
-// 전위 감소
-result = --number;
-console.log(result, number);
+console.log(5 == '5');
+// 값만 비교한다.
+console.log(5 === '5');
+// 값과 타임을 함께 비교한다. 후자를 사용하자.

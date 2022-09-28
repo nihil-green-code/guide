@@ -22,16 +22,20 @@
   + [prompt()](./JavaScript/6.window/0.intro.md)
   + [alert()](./JavaScript/6.window/2.alert.md)
   + [confirm()](./JavaScript/6.window/3.confirm.md)
++ [문과 표현식](./JavaScript/8.statement-expression.md)
 + [**연산자**](./JavaScript/7.operator/0.intro.md)
   + [할당 연산자](./JavaScript/7.operator/1.equal.md)
   + [산술 연산자](./JavaScript/7.operator/2.normal.md)
   + [삼항 조건 연산자](./JavaScript/7.operator/3.ternary.md)
-  + [관계 연산자](./JavaScript/7.operator/4.relational.md)
-+ 제어문
+  + [비교 연산자](./JavaScript/7.operator/4.comparison.md)
+  + 논리 연산자
+  + 쉼표, 그룹 연산자
+  + typeof 연산자
++ [**제어문**](./JavaScript/9.flow-statement/0.intro.md)
   + if, else if, else
   + switch
   + for
   + while
   + do while
-+ 함수
 + 배열
++ 함수
