@@ -1,4 +1,10 @@
-console.log(5 == '5');
-// 값만 비교한다.
-console.log(5 === '5');
-// 값과 타임을 함께 비교한다. 후자를 사용하자.
+let expo1 = 2 ** 4;
+let expo2 = 10 ** 4;
+let expo3 = 3 ** 9;
+
+let expo4 = (-5) ** 2;
+
+console.log(expo1);
+console.log(expo2);
+console.log(expo3);
+console.log(expo4);

@@ -28,14 +28,15 @@
   + [산술 연산자](./JavaScript/7.operator/2.normal.md)
   + [삼항 조건 연산자](./JavaScript/7.operator/3.ternary.md)
   + [비교 연산자](./JavaScript/7.operator/4.comparison.md)
-  + 논리 연산자
-  + 쉼표, 그룹 연산자
-  + typeof 연산자
+  + [논리 연산자](./JavaScript/7.operator/5.logical.md)
+  + [쉼표, 그룹 연산자](./JavaScript/7.operator/6.other.md)
+  + [typeof 연산자](./JavaScript/7.operator/7.typeof.md)
+  + [지수 연산자](./JavaScript/7.operator/8.expo.md)
 + [**제어문**](./JavaScript/9.flow-statement/0.intro.md)
   + if, else if, else
   + switch
   + for
   + while
-  + do while
+  + do...while
 + 배열
 + 함수
