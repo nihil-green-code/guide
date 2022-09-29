@@ -35,7 +35,7 @@
 + [**제어문**](./JavaScript/9.flow-statement/0.intro.md)
   + [if, else if, else](./JavaScript/9.flow-statement/1.if.md)
   + [switch](./JavaScript/9.flow-statement/2.switch.md)
-  + for
+  + [for](./JavaScript/9.flow-statement/3.for.md)
   + while
   + do...while
 + 배열
