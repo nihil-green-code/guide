@@ -1,15 +1,13 @@
-const color = '빨간색';
+const arr = new Array(5);
 
-switch (color) {
-  case '빨간색':
-    console.log('빨간색입니다.');
-    break;
-  case '파란색':
-    break;
-  case '검은색':
-    break;
-  case '하얀색':
-    break;
-  default:
-    break;
+for (let row = 0; row < arr.length; row++) {
+  arr[row] = new Array(5);
 }
+
+for (let col = 5, print = 1; col >= 0; col--) {
+  for (let row = 5; row >= 0; row--) {
+    arr[row][col] = print++;
+  }
+}
+
+console.log(arr);
