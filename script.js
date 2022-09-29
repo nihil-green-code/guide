@@ -1,10 +1,15 @@
-let expo1 = 2 ** 4;
-let expo2 = 10 ** 4;
-let expo3 = 3 ** 9;
+const color = '빨간색';
 
-let expo4 = (-5) ** 2;
-
-console.log(expo1);
-console.log(expo2);
-console.log(expo3);
-console.log(expo4);
+switch (color) {
+  case '빨간색':
+    console.log('빨간색입니다.');
+    break;
+  case '파란색':
+    break;
+  case '검은색':
+    break;
+  case '하얀색':
+    break;
+  default:
+    break;
+}

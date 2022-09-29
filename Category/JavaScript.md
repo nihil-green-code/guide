@@ -33,8 +33,8 @@
   + [typeof 연산자](./JavaScript/7.operator/7.typeof.md)
   + [지수 연산자](./JavaScript/7.operator/8.expo.md)
 + [**제어문**](./JavaScript/9.flow-statement/0.intro.md)
-  + if, else if, else
-  + switch
+  + [if, else if, else](./JavaScript/9.flow-statement/1.if.md)
+  + [switch](./JavaScript/9.flow-statement/2.switch.md)
   + for
   + while
   + do...while
