@@ -29,7 +29,7 @@
   + [form 요소 그룹화하기](./HTML/14.form/14.7.fieldset-tag.md)
   + [textarea 태그](./HTML/14.form/14.8.textarea-tag.md)
 + [내용 추가와 삭제 태그](./HTML/20.ins-del-tag.md)
-+ 태그 접기 - details 태그, summary 태그 설명
++ [태그 접기](./HTML/21.details-summary.md)
 + [멀티미티어 태그들](./HTML/15.media-tags.md)
 + [사용자 지정 속성(data)](./HTML/16.data-attr.md)
 + [CSS를 위한 style 태그](./HTML/17.style-tag.md)
